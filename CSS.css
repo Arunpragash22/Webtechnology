@@ -1,0 +1,226 @@
+body{
+    background-color: lightblue;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    
+    border: 5px solid #ccc;
+    
+    border-radius: 4px;
+}
+
+.food-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin-right: 20px; /* Adjust the spacing as needed */
+    display: inline-block;
+}
+
+h1{
+    font-family:ComicSans;
+    color: #f6b17a;
+    display:inline-block;
+    padding:8px;
+
+
+}
+.search-container{
+    display:inline; 
+    margin-left: 50%;
+    
+}
+.search-box{
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.search-button{
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+nav ul {
+    list-style-type: none;
+    
+    
+}
+
+nav,ul,li {
+    display: inline  ;
+    padding: 5px;
+    
+}
+ul{
+    margin-left: 55%;
+    
+    
+}
+
+nav ul li a {
+    color: #fff;
+    
+   
+}
+.video-container {
+    width: 300px; /* Adjust width as needed */
+    margin-left: 20px; /* Center the video horizontally */
+    float:right;
+    border: 1px solid #ccc; /* Add border for the box */
+    padding: 10px; /* Add padding inside the box */
+    
+}
+
+/* Style for the reservation image */
+.reservation-section {
+    text-align: left;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.Reservation{
+    width:300px;
+    height: 300px;
+    
+    
+    
+}
+.reservation-heading {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+    
+    
+}
+
+.Delivery-section
+{
+    text-align: left;
+    margin-top: 50px;
+    
+    display: inline-block;   
+}
+.Delivery
+{
+    width:300px;
+    height: 300px;
+     
+   
+}
+.delivery-heading
+{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333; 
+}
+
+
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+   
+    bottom: 0;
+    width: 100%;
+    border: 5px solid #ccc;
+    left:0;
+    right: 100;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-component {
+    width: 48%; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align-last: center;
+}
+
+.right-component {
+    width: 48%; /* Adjust width as needed */
+    background-color:lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align-last: center;
+
+}
+.row {
+    display: flex;
+   
+  }
+  
+  .column {
+    flex: 33%;
+    padding: 15px;
+    text-align: center;
+  }
+  /*Menu CSS*/
+  .Head{
+   
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    
+    border: 5px solid #ccc;
+    
+    border-radius: 4px;
+}
+.Footer-menu
+{
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+   
+    bottom: 0;
+    width: 100%;
+    border: 5px solid #ccc;
+    left:0;
+    right: 100;
+    border-radius: 4px;
+}
+.Body-menu {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container-menu {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu{
+    text-align: center;
+    color: #333;
+}
+.menu-item,.menu-itemAP {
+    margin-bottom: 20px;
+}
+.menu-item ,.menu-itemAP {
+    color: #555;
+}
+.menu-item ,.menu-itemAP {
+    color: #777;
+}
