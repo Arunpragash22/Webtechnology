@@ -224,3 +224,96 @@ footer{
 .menu-item ,.menu-itemAP {
     color: #777;
 }
+/*reservation hotel*/
+.reservation-table {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.Reservation-hotel
+{
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.resevation-hotel-table
+{
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+    padding: 10px 20px;
+    
+}
+/*Delivery css*/
+.delivery-form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-form h2 {
+    margin-bottom: 10px;
+}
+
+.delivery-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.delivery-form input[type="text"],
+.delivery-form input[type="tel"],
+.delivery-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.delivery-form textarea {
+    resize: vertical;
+}
+
+.delivery-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delivery-form input[type="submit"]:hover {
+    background-color: #555;
+}
