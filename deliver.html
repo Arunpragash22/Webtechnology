@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="AP.png">
+    <link href="style.css" rel="stylesheet">
+    <title>AP Resturant</title>
+
+    
+
+</head>
+<body>
+    <header>
+        
+        <div class="header">
+
+            <div class="headerbar">
+
+                <div class="account">
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                            </li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="">
+                            <li>Home</li>
+                        </a>
+                        <a href="">
+                            <li>About</li>
+                        </a>
+                        <a href="">
+                            <li>Food menu</li>
+                        </a>
+                        <a href="">
+                            <li>Book Table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <h1>AP Resturant</h1>
+             </div>
+             <div class="bar">
+                 <i class="fa-solid fa-bars"></i>
+                 <i class="fa-solid fa-xmark" id="hdcross"></i>
+             </div>
+             <div class="nav">
+                <ul>
+                    <a href="homepage.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="booktable.html">
+                        <li>Book Table</li>
+                    </a>
+                </ul>
+                
+             </div>
+             <div class="account">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass srchicon" id="searchicon2"></i>
+                        </li>
+                    </a>
+                    
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+                    </a>
+                </ul>
+             </div>
+        </div>
+        
+    </header>
+
+    <div class="delivery-form">
+        <h2>Delivery Details</h2>
+        <form action="your-delivery-script.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="items">Items:</label>
+            <textarea id="items" name="items" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit Order">
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer-1">
+           <div class="logo">
+                <img src="AP.png" alt="logo">
+            </div>
+            <div>
+                <address>
+                    <p>Email: APrestaurant@gmail.com</p>
+                    <p>Youtupe: APrestaurant</p>
+                    <p>No 253,<br>Jaffna Railway station Road.<br>Srilanka</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="AP.png" alt="logo">
+            <h2>Powered by <em> AP Restaurant</em></h2>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
